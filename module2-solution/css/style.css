@@ -2,6 +2,7 @@
   box-sizing: border-box;
 }
 
+/* resetting browser default padding and margin and changing font */
 body {
   padding: 0;
   margin: 0;
@@ -21,7 +22,7 @@ h1 {
 
 .section h3 {
   margin: 0;
-  width: 30%;
+  padding: 0px 20px 0px 20px;
   position: absolute;
   top: 0;
   right: 0;
@@ -34,6 +35,7 @@ h1 {
   padding: 20px 10px 0px 10px;
 }
 
+/* to set the color of title region */
 .section1 h3 {
   background-color: #2ecc71;
 }
