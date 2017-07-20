@@ -1,0 +1,41 @@
+/* Navigation Bar */
+#navigation-bar {
+  border-radius: 0;
+  border: 0;
+  background-color: #2c3e50;
+}
+#brand-navbar {
+  height: auto;
+}
+.navbar-brand h1 {
+  color: white;
+  font-size: 1.5em;
+  margin-top: 10px;
+}
+.navbar-brand a:hover, .navbar-brand a:active {
+  text-decoration: none;
+}
+.navbar-header button.navbar-toggle {
+  margin-top: 20px;
+}
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: white;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+  color: #2c3e50;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* Main Content */
+#main-content section {
+  min-height: 1000px;
+  background-color: #95a5a6;
+  margin: 30px 20px 30px;
+}
